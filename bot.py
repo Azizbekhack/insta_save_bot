@@ -19,6 +19,10 @@ from aiogram.utils.keyboard import InlineKeyboardBuilder
 import time 
 from instasaves import get_insta
 
+# from aiogram.client.session.aiohttp import AiohttpSession
+
+# session = AiohttpSession(proxy='http://proxy.server:3128')
+
 ADMINS = config.ADMINS
 TOKEN = config.BOT_TOKEN
 CHANNELS = config.CHANNELS
